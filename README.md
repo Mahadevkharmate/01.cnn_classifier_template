@@ -15,7 +15,7 @@ You can adapt this template to any classification task such as:
 - **Surveillance** (e.g., emergency vehicle detection)
 
 ---
-
+```
 ## 📂 Project Structure
 cnn_classifier/
 │
@@ -49,7 +49,7 @@ cnn_classifier/
 ├── LICENSE # License file
 ├── requirements.txt # Project dependencies
 └── setup.py # Package setup (optional)
-
+```
 
 ---
 
@@ -143,18 +143,18 @@ docker run -p 8000:8000 cnn-classifier
 
 # 📈 Results
 Metric	    Value(change as per results)
-Accuracy	98.5%
+Accuracy	   98.5%
 Precision	98.2%
-Recall	    97.8%
-F1 Score	98.0%
+Recall	   97.8%
+F1 Score	   98.0%
 
 
-# ☁️ Deployment (AWS Example)
+ ☁️ Deployment (AWS Example)
 
-- Push Docker image to **AWS ECR**
+- Push Docker image to AWS ECR
 
-- Pull and run container on **AWS EC2**
+- Pull and run container on AWS EC2
 
-- Expose API via **Nginx / Load Balancer**
+- Expose API via Nginx / Load Balancer
 
-- Monitor using **AWS CloudWatch**
+- Monitor using AWS CloudWatch
